@@ -2,15 +2,21 @@ import json
 
 
 def leer_crear_json():
-    with open("datos.json", "r") as lectura:
-        archivo = json.load(lectura)
-        return
+    try:
+        with open("datos.json", "r") as lectura:
+            datos = json.load(lectura)
+            return datos
+    except FileNotFoundError:
+        return []
     
+
 def guardar_json(datos):
-    with open("datos.json","w") as guardado:
-        json.dumps(guardado,datos, indent=4)
+    with open("datos.json", "w") as guardar:
+        json.dump(datos, guardar, indent=4)
+    print("\nGUARDANDO...\n")
         
 def registro_participante():
+    datos=leer_crear_json()
     nombre=input("ingrese el nombre: ")
     while True:
         try:
@@ -71,7 +77,8 @@ def registro_participante():
         "departamento":validacion_sandereano,
         "carrera seleccionada":carrera_seleccionada
     }
-    guardar_json(participante)
+    datos.append(participante)
+    guardar_json(datos)
     print("\n\n\nGUARDADO...")
         
 registro_participante()

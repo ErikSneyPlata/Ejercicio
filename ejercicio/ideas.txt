@@ -1,0 +1,12 @@
+1.Registrar
+2.Mostrar empleados
+3.modificar empleados
+4.despedir empleado (Elimina)
+5.Registrar entrada de empleado
+6.Registrar salida de empleado
+
+-crud en json
+    -entrada 8:00
+    -salida 9:00
+        -->registro de entrada en archivo txt 
+
