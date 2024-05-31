@@ -1,0 +1,20 @@
+{
+    "94854434": {
+        "nombre": "karen",
+        "edad": 26,
+        "numero telefono": "3160321312",
+        "direccion": "carrera 43 # 23-45"
+    },
+    "1234567": {
+        "nombre": "Erik",
+        "edad": 23,
+        "numero telefono": "3213232131",
+        "direccion": "calle 2321 d 123 12"
+    },
+    "1005163108": {
+        "nombre": "javier",
+        "edad": 21,
+        "numero telefono": "3201765231",
+        "direccion": "carrera 1 43 23"
+    }
+}

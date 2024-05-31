@@ -12,10 +12,10 @@ def main():
 
         opcion = ("Que accion desea realizar:\n1.menu participantes\n2.obtener resultados\n3.salir")
         if opcion == 1:
-            
-        if opcion == 3:
+
+        if opcion == 2:
             ranking.posicion_participantes()
-        if opcion == 4:
+        if opcion == 3:
             break 
 
 def submenu_participantes():

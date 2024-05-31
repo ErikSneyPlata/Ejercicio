@@ -8,5 +8,5 @@
 -crud en json
     -entrada 8:00
     -salida 9:00
-        -->registro de entrada en archivo txt 
+        -->registro de entrada y salida en archivo txt 
 

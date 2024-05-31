@@ -1,0 +1,17 @@
+[
+    {
+        "Tipo": "Gato",
+        "Nacimiento": 80,
+        "Raza": "Criollo"
+    },
+    {
+        "Tipo": "Perro",
+        "Nacimiento": 90,
+        "Raza": "Criollo"
+    },
+    {
+        "Tipo": "Gato",
+        "Nacimiento": 45,
+        "Raza": "Criollo"
+    }
+]
